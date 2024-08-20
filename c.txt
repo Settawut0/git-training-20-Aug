@@ -1,1 +1,16 @@
-Feature CCCC
+1 Create filename.txt
+2 Git add filename.txt
+3 Git commit -m "Test Push v.1"
+4 Git push // Git push origin 'branchname'
+5 Git brach <branchname> //สร้างบรานซ์
+6 Git brach //ตรวจสอบบรานที่อยู่ปัจจัยน
+7 Git checkout <branchname> //ย้ายไปยังบรานซ์ที่ระบุ
+
+case 2 (Pull)
+1 มีคน Push มา 
+2 git pull 
+
+-> git log // ตรวจสอบ log ที่เกิดขึ้น
+-> git status //ตรวจสอบสถานะของไฟล์ใน Git repository
+-> git checkout -b <branchname> //สร้าง branch ใหม่และย้ายไปที่ branch นั้น
+-> git merge <branchname>  //รวม branch ที่ระบุเข้ากับ branch ปัจจุบัน
